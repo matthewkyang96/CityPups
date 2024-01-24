@@ -130,7 +130,10 @@ main{
   background-repeat: no-repeat;
   height: 627px;
   background-position: center;
-  background-size: auto 1072px; /*108.329% 171.587%;*/
+  background-size: cover; /*108.329% 171.587%;*/
+  display: flex;
+  justify-content: center;
+  padding-right: 1010px;
 }
 
 footer {
@@ -201,7 +204,7 @@ footer {
 
 .form-group + .form-group{
   border-left: 0.1rem solid #8D8D98;
-  padding-left: 80px;
+  padding-left: 50px;
 }
 
 .search label{
@@ -224,14 +227,15 @@ footer {
 }
 
 .search button{
-  margin-left: 150px;
+  margin-left: 250px;
   width: 50px;
   height: 50px
 }
 
 section{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 450px;
   align-items: center;
   height: 550px;
   position: relative;
@@ -317,6 +321,7 @@ section > img{
   height: 440px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(/assets/bg.png), lightgray -119.353px -2px / 108.288% 110.624% no-repeat;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: right;
 }

@@ -133,7 +133,6 @@ main{
   background-size: cover; /*108.329% 171.587%;*/
   display: flex;
   justify-content: center;
-  padding-right: 1010px;
 }
 
 footer {
@@ -165,11 +164,11 @@ footer {
 
 .main-txt-container{
  padding-top: 16rem;
- padding-left: 15rem;
  display: flex;
  flex-direction: column;
  align-items: flex-start;
  gap: 3.2rem;
+ width: 1250px;
 }
 
 .modal{

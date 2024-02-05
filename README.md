@@ -13,5 +13,5 @@ In this repository, I've brought to life a visually stunning website using HTML 
 
 ## Credits:
 
-* Vivian Lin  
+* [@Vivian Lin](https://vivianlin.webflow.io/)  
 * [City Pups Case Study](https://vivianlin.webflow.io/work/citypups-case-study)
